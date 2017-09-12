@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#Import required packages
 import os
 import sys
 import optparse
@@ -7,6 +8,7 @@ import PIL
 from PIL import *
 from osgeo import gdal,ogr,osr	#Geospatial Data Abstraction Library
 gdal.UseExceptions()
+import osgeo
 osgeo.ogr.UseExceptions()
 
 g_red = gdal.Open( 'LC81390442014343LGN00_B4.TIF' )
