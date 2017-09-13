@@ -7,3 +7,9 @@ sudo apt install gdal-bin python-gdal python3-gdal
 
 #then import package as usual syntax like:
 from osgeo import gdal
+
+# Conversion of a shapefile to Geojson:
+ogr2ogr -f GeoJSON -t_srs crs:84 [name].geojson [name].shp
+
+# Clip a raster using Geojson :
+gdalwarp -cutline jpr.json -crop_to_cutline ~/Desktop/JPR16/2016/ndbi_2016R.tif ndbi_16R_clipped.tif
