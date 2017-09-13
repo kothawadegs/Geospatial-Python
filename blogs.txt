@@ -1,0 +1,4 @@
+This file contains urls of important blogs which explains the applications of RSGIS in real life applications:
+
+1.Flood Forecasting Italian Govt:
+https://www.skywatch.co/blog/improving-flood-forecasting-with-eo-data
