@@ -2,3 +2,6 @@ This file contains urls of important blogs which explains the applications of RS
 
 1.Flood Forecasting Italian Govt:
 https://www.skywatch.co/blog/improving-flood-forecasting-with-eo-data
+
+Link for R:
+http://www.theanalysisfactor.com/resources/by-topic/r/
