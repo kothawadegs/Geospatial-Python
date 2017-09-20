@@ -13,3 +13,6 @@ ogr2ogr -f GeoJSON -t_srs crs:84 [name].geojson [name].shp
 
 # Clip a raster using Geojson :
 gdalwarp -cutline jpr.json -crop_to_cutline ~/Desktop/JPR16/2016/ndbi_2016R.tif ndbi_16R_clipped.tif
+
+#for shapefile, open the district shapefile of India(Downloaded from http://www.gadm.org/country) in QGIS. Open attribute table, 
+select the feature and rightclick -> Zoom in to feature, save as and save selected feature. 
