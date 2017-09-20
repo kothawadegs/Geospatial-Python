@@ -11,6 +11,9 @@ from osgeo import gdal
 # Conversion of a shapefile to Geojson:
 ogr2ogr -f GeoJSON -t_srs crs:84 [name].geojson [name].shp
 
+#Clip a raster using .shp file as :
+gdalwarp -cutline INPUT.shp -crop_to_cutline -dstalpha INPUT.tif OUTPUT.tif
+
 # Clip a raster using Geojson :
 gdalwarp -cutline jpr.json -crop_to_cutline ~/Desktop/JPR16/2016/ndbi_2016R.tif ndbi_16R_clipped.tif
 
