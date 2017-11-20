@@ -1,0 +1,4 @@
+#To Install Zip package
+sudo apt-get install zip
+#To install Gzip package
+sudo apt-get install gzip
